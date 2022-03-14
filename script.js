@@ -18,10 +18,6 @@ function navOpen() {
     $(".phonenavcontainer").show(1000);
     $(".phoneNav").show(1000);
 }
-$(".navLink").click(function (e) {
-    e.preventDefault();
-    console.log(this.children)
-});
 $(".skillsHeader").click(function (e) {
     $(".skillsBody").toggle(500);
     e.preventDefault();
