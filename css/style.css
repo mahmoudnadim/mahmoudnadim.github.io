@@ -791,6 +791,136 @@ footer {
 .footerText {
     color: #858585;
 }
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+    .menuBar {
+        display: none;
+    }
+    header {
+        height: 100vh;
+    }
+    .container {
+        padding: 0 15rem;
+    }
+    .headerContainer {
+        padding-left: 1rem;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-right: 6rem;
+    }
+    nav {
+        display: block;
+        padding-right: 1.2rem;
+    }
+    .skillItem:nth-last-child(2),
+    .skillItem:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+    .headerAboutMe h1 {
+        font-size: 3rem;
+    }
+    .contactIcon i,
+    .contactText,
+    .contactTitle,
+    .formBody input,
+    .formBody textarea,
+    .SocialBtn i,
+    .expertiseText h5,
+    .hirMeContainer span,
+    .headerAboutMe h5 {
+        font-size: 1rem;
+    }
+    .testimonialsContainer {
+        background: #1a1a26;
+        padding: 2rem 0 !important;
+    }
+    .myBlogContainer {
+        padding: 2rem 8rem;
+    }
+    .worksItem,
+    .blogCard,
+    .contactCardItem {
+        width: 33.3%;
+    }
+    .serviceCard {
+        width: 33%;
+    }
+    .contactIcon {
+        padding: 0.4rem;
+    }
+    .contactsContainer {
+        padding: 2rem 15rem;
+    }
+    .contactCardContainer {
+        line-height: 2rem;
+        padding: 2rem;
+    }
+    #profile {
+        width: 28rem;
+        height: auto;
+    }
+    .headerContainer {
+        padding-right: 6rem;
+    }
+    .SocialBtn i {
+        padding: 1rem 1rem;
+    }
+    .sayThanksContainer {
+        padding: 1rem 15rem;
+    }
+    .sayThanksText {
+        font-size: 2rem;
+    }
+    .toUp i {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 9px;
+    }
+    header {
+        height: auto;
+    }
+    .container {
+        padding: 2rem 7em;
+    }
+    .worksItem {
+        width: 50%;
+    }
+    .skillItem {
+        width: 50%;
+    }
+    .serviceCard {
+        width: 49.7%;
+    }
+    .contactCardContainer {
+        line-height: 4rem;
+        padding: 6rem;
+    }
+    .contactIcon {
+        padding: 1rem;
+    }
+    .contactIcon i {
+        font-size: 8rem;
+    }
+    .contactTitle,
+    .contactText {
+        font-size: 2rem;
+    }
+    #profile {
+        width: 28rem;
+        height: auto;
+    }
+    .SocialBtn i {
+        font-size: 1.5rem;
+        padding: 1.2rem 1.3rem;
+    }
+}
 @media only screen and (max-width: 768px) {
     html {
         font-size: 6px;
@@ -898,132 +1028,5 @@ footer {
         font-size: 4rem;
     }
 }
-@media only screen and (max-width: 992px) {
-    html {
-        font-size: 9px;
-    }
-    header {
-        height: auto;
-    }
-    .container {
-        padding: 2rem 7em;
-    }
-    .worksItem {
-        width: 50%;
-    }
-    .skillItem {
-        width: 50%;
-    }
-    .serviceCard {
-        width: 49.7%;
-    }
-    .contactCardContainer {
-        line-height: 4rem;
-        padding: 6rem;
-    }
-    .contactIcon {
-        padding: 1rem;
-    }
-    .contactIcon i {
-        font-size: 8rem;
-    }
-    .contactTitle,
-    .contactText {
-        font-size: 2rem;
-    }
-    #profile {
-        width: 28rem;
-        height: auto;
-    }
-    .SocialBtn i {
-        font-size: 1.5rem;
-        padding: 1.2rem 1.3rem;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    html {
-        font-size: 12px;
-    }
-    .menuBar {
-        display: none;
-    }
-    header {
-        height: 100vh;
-    }
-    .container {
-        padding: 0 15rem;
-    }
-    .headerContainer {
-        padding-left: 1rem;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        padding-right: 6rem;
-    }
-    nav {
-        display: block;
-        padding-right: 1.2rem;
-    }
-    .skillItem:nth-last-child(2),
-    .skillItem:nth-last-child(1) {
-        margin-bottom: 0;
-    }
-    .headerAboutMe h1 {
-        font-size: 3rem;
-    }
-    .contactIcon i,
-    .contactText,
-    .contactTitle,
-    .formBody input,
-    .formBody textarea,
-    .SocialBtn i,
-    .expertiseText h5,
-    .hirMeContainer span,
-    .headerAboutMe h5 {
-        font-size: 1rem;
-    }
-    .testimonialsContainer {
-        background: #1a1a26;
-        padding: 2rem 0 !important;
-    }
-    .myBlogContainer {
-        padding: 2rem 8rem;
-    }
-    .worksItem,
-    .blogCard,
-    .contactCardItem {
-        width: 33.3%;
-    }
-    .serviceCard {
-        width: 33%;
-    }
-    .contactIcon {
-        padding: 0.4rem;
-    }
-    .contactsContainer {
-        padding: 2rem 15rem;
-    }
-    .contactCardContainer {
-        line-height: 2rem;
-        padding: 2rem;
-    }
-    #profile {
-        width: 28rem;
-        height: auto;
-    }
-    .headerContainer {
-        padding-right: 6rem;
-    }
-    .SocialBtn i {
-        padding: 1rem 1rem;
-    }
-    .sayThanksContainer {
-        padding: 1rem 15rem;
-    }
-    .sayThanksText {
-        font-size: 2rem;
-    }
-    .toUp i {
-        font-size: 2.5rem;
-    }
-}
+
+
