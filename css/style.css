@@ -177,7 +177,7 @@ nav li {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 6rem;
     padding-left: 1rem;
 }
@@ -860,7 +860,7 @@ footer {
         padding: 2rem;
     }
     #profile {
-        width: 28rem;
+        width: 24rem;
         height: auto;
     }
     .headerContainer {
