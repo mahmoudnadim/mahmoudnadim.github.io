@@ -1,14 +1,14 @@
-var testimonialsBodyScroll = document.querySelector(".testimonialsBody")
-var testimonialsSlider = document.querySelector(".testimonialsSlider")
-setInterval(() => {
-    if (testimonialsBodyScroll.scrollLeft+1 > (testimonialsSlider.children.length-1) * testimonialsSlider.clientWidth) {
-        testimonialsBodyScroll.scrollTo(0,0)
-    }
-    else{
-        testimonialsBodyScroll.scrollBy(testimonialsSlider.clientWidth, 0)
-    }
+// var testimonialsBodyScroll = document.querySelector(".testimonialsBody")
+// var testimonialsSlider = document.querySelector(".testimonialsSlider")
+// setInterval(() => {
+//     if (testimonialsBodyScroll.scrollLeft+1 > (testimonialsSlider.children.length-1) * testimonialsSlider.clientWidth) {
+//         testimonialsBodyScroll.scrollTo(0,0)
+//     }
+//     else{
+//         testimonialsBodyScroll.scrollBy(testimonialsSlider.clientWidth, 0)
+//     }
     
-}, 3000);
+// }, 3000);
 
 function navClose() {
     $(".phonenavcontainer").hide(1000);

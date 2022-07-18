@@ -26,7 +26,7 @@ body li {
     background: #f2f2f2;
     color: var(--primary-color);
     border-radius: 50%;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     opacity: 0.5;
 }
 .toUp i:hover,
@@ -49,12 +49,14 @@ button {
 .btn {
     line-height: 0px;
 }
+section{
+    padding: 2rem 0;
+}
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: center;
-    width: 100%;
-    padding: 0 15rem;
+    width: 80%;
+    padding: 0 1rem;
 }
 html {
     font-size: 14px;
@@ -322,14 +324,9 @@ nav li {
 .mb {
     margin-bottom: 3rem;
 }
-.aboutMeContainer {
-    text-align: center;
-    width: 100%;
-}
 #aboutMe {
     background: #111111;
     color: #f2f2f2;
-    padding: 2rem 0;
 }
 .skillsContainer {
     margin-bottom: 3rem;
@@ -402,14 +399,16 @@ nav li {
     background-color: var(--primary-color);
 }
 .serviceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     overflow: initial;
-    padding: 2rem 0;
+
 }
 .serviceCard {
     display: inline-block;
-    width: 33%;
+    width: 32%;
     height: 12rem;
-    padding: 0 0 0.5rem 0.5rem;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -418,6 +417,10 @@ nav li {
     transform: translateY(-5px);
 }
 .serviceCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     text-align: center;
     border-radius: 0.5rem;
@@ -453,29 +456,29 @@ nav li {
 }
 #works {
     background: #171717;
-    padding: 2rem 0;
 }
 .worksHeader {
     text-align: center;
     margin-bottom: 1rem;
 }
-.worksHeader h2 {
-    font-size: 2.5rem;
+h2 {
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 .worksBody {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0 1rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .worksItem {
-    width: 33.3%;
+    width: 30%;
     height: 30rem;
-    padding: 0 1rem 0 1rem;
 }
 .galleryItemTitle {
     height: 10%;
@@ -501,12 +504,11 @@ nav li {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
-.testimonialsContainer {
+#testimonials{
     background: #1a1a26;
-    padding: 2rem 0 !important;
 }
 .testimonialsBody {
-    width: 50%;
+    width: 100%;
     margin: auto;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -534,7 +536,7 @@ nav li {
 }
 .testimonialsCardContainer {
     background: #20202a;
-    padding: 1rem 1.5rem;
+    padding: 3rem 1.5rem;
     text-align: center;
     border-radius: 0.5rem;
 }
@@ -542,6 +544,7 @@ nav li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -551,24 +554,20 @@ nav li {
     margin-bottom: 1rem;
 }
 .referenceHeader img {
-    width: 30px;
+    width: 4rem;
     border-radius: 50%;
 }
 .referenceBody {
-    font-size: 0.7rem;
-    height: 5rem;
     color: #98999c;
 }
 .referenceText {
     color: #98999c;
-    font-size: 0.8rem;
 }
 .ReferenceName {
     margin-left: 0.8rem;
 }
-.contactsContainer {
+#contacts{
     background: #2b2b34;
-    padding: 2rem 15rem;
 }
 .contactsBody {
     display: -webkit-box;
@@ -583,16 +582,18 @@ nav li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0 1rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
 }
 .contactCardItem {
-    width: 33.3%;
-    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 30%;
+    margin: 1rem 0;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -613,14 +614,12 @@ nav li {
     border-radius: 0.5rem;
 }
 .contactIcon i {
+    font-size: 2rem;
     color: #fdb400;
 }
 .contactTitle {
     font-weight: 600;
     font-size: 1rem;
-}
-.contactText {
-    font-size: 0.8rem;
 }
 .formContainer {
     padding: 0 1rem;
@@ -653,7 +652,7 @@ nav li {
     outline: none;
     padding: 1rem 1.5rem;
     background: #20202a;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
 }
 .submitForm {
@@ -675,7 +674,6 @@ nav li {
 .submitForm input {
     margin-bottom: 0;
     padding: 0 0.5rem;
-    font-size: 0.8rem;
 }
 .submitIcon {
     background: #20202a;
@@ -726,9 +724,10 @@ nav li {
 .w-100 {
     width: 100%;
 }
-.sayThanksContainer {
+#sayThanks{
     background: #012641;
-    padding: 2rem 15rem;
+}
+.sayThanksContainer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -743,6 +742,7 @@ nav li {
     text-align: left;
     font-size: 2rem;
     font-weight: 600;
+    padding: 0 1rem;
 }
 .SocialList {
     display: -webkit-box;
@@ -804,9 +804,6 @@ footer {
     header {
         height: 100vh;
     }
-    .container {
-        padding: 0 15rem;
-    }
     .headerContainer {
         padding-left: 1rem;
         -webkit-box-pack: justify;
@@ -849,14 +846,11 @@ footer {
     .contactCardItem {
         width: 33.3%;
     }
-    .serviceCard {
-        width: 33%;
-    }
     .contactIcon {
         padding: 0.4rem;
     }
     .contactsContainer {
-        padding: 2rem 15rem;
+        padding: 2rem 0;
     }
     .contactCardContainer {
         line-height: 2rem;
@@ -873,7 +867,7 @@ footer {
         padding: 1rem 1rem;
     }
     .sayThanksContainer {
-        padding: 1rem 15rem;
+        padding: 1rem 0;
     }
     .sayThanksText {
         font-size: 2rem;
@@ -884,44 +878,10 @@ footer {
 }
 @media only screen and (max-width: 992px) {
     html {
-        font-size: 9px;
+        font-size: 10px;
     }
     header {
         height: auto;
-    }
-    .container {
-        padding: 2rem 7em;
-    }
-    .worksItem {
-        width: 50%;
-    }
-    .skillItem {
-        width: 50%;
-    }
-    .serviceCard {
-        width: 49.7%;
-    }
-    .contactCardContainer {
-        line-height: 4rem;
-        padding: 6rem;
-    }
-    .contactIcon {
-        padding: 1rem;
-    }
-    .contactIcon i {
-        font-size: 8rem;
-    }
-    .contactTitle,
-    .contactText {
-        font-size: 2rem;
-    }
-    #profile {
-        width: 28rem;
-        height: auto;
-    }
-    .SocialBtn i {
-        font-size: 1.5rem;
-        padding: 1.2rem 1.3rem;
     }
 }
 @media only screen and (max-width: 768px) {
