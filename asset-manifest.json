@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.47525352.css",
-    "main.js": "/static/js/main.994a5781.js",
+    "main.css": "/static/css/main.3f6a9cab.css",
+    "main.js": "/static/js/main.16f1a833.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/profile.png": "/static/media/profile.3cce33e2c082bad8341f.png",
-    "static/media/dekorThub.jpg": "/static/media/dekorThub.13a8a4dcd84ea4bc0c23.jpg",
-    "static/media/cvThub.jpg": "/static/media/cvThub.bdb9bd4b682c3860365b.jpg",
-    "static/media/personalThub.jpg": "/static/media/personalThub.d54538f4325b35a76d63.jpg",
-    "static/media/AdnanBey.jpg": "/static/media/AdnanBey.41a4209656168bedc039.jpg",
-    "static/media/EmcetBey.jpg": "/static/media/EmcetBey.1f136283bcc756276941.jpg",
-    "static/media/MohammedBey.jpg": "/static/media/MohammedBey.a9a4b0163bf47551ea80.jpg",
+    "static/media/uniProfile.png": "/static/media/uniProfile.bac2b1c2a448dccde2a1.png",
+    "static/media/dekorayonProject.png": "/static/media/dekorayonProject.4222a701cfabf1aa0ae5.png",
+    "static/media/personalProject.png": "/static/media/personalProject.5643d0c995956464187d.png",
+    "static/media/webLogo.png": "/static/media/webLogo.43de0c4d3d531ca098ff.png",
+    "static/media/cvProject.png": "/static/media/cvProject.7154c0cd1b5663d83bf6.png",
     "index.html": "/index.html",
-    "main.47525352.css.map": "/static/css/main.47525352.css.map",
-    "main.994a5781.js.map": "/static/js/main.994a5781.js.map"
+    "main.3f6a9cab.css.map": "/static/css/main.3f6a9cab.css.map",
+    "main.16f1a833.js.map": "/static/js/main.16f1a833.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47525352.css",
-    "static/js/main.994a5781.js"
+    "static/css/main.3f6a9cab.css",
+    "static/js/main.16f1a833.js"
   ]
 }
